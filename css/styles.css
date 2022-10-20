@@ -385,6 +385,10 @@ figure {
 	align-items: center;
 	height: 600px;
 	background-color: rgba(47, 48, 58, 1);
+	background-image: url(../images/bg-title_v1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .style-title {
 	display: flex;
