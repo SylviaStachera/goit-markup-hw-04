@@ -305,7 +305,7 @@ figure {
 .header-border {
 	border-bottom: 1px solid #ececec;
 }
-/* manu */
+/* menu */
 .header-nav {
 	display: flex;
 	justify-content: space-between;
@@ -396,7 +396,7 @@ figure {
 	height: 600px;
 	background-color: rgba(47, 48, 58, 0.4);
 	background-image: url(../images/bg-title_v1.jpg);
-	background-size: contain;
+	background-size: 1600px 600px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -531,6 +531,24 @@ figure {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 }
+.client-icons:hover{
+	border: 1px solid var(--active-color);
+	--color2: var(--active-color);
+	
+}
+
+.ellipse-section {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--main-white);
+	/* background-color: red; */
+}
+.ellipse-section:hover{
+	background-color: var(--active-color);
+	--color2: var(--main-white);
+	cursor: pointer;
+}
 
 /* style footer */
 .footer-style {
@@ -606,6 +624,11 @@ figure {
 	height: 44px;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
+}
+.ellipse-footer:hover{
+background-color: var(--active-color);
+	--color2: var(--main-white);
+	cursor: pointer;
 }
 .icon-position {
 	margin: 12px;
