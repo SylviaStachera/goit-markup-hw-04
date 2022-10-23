@@ -533,6 +533,9 @@ figure {
 	justify-content: space-between;
 	background-color: rgba(47, 48, 58, 1);
 }
+.flex-footer {
+	display: flex;
+}
 .logo-space {
 	padding-top: 60px;
 	margin-bottom: 20px;
@@ -572,6 +575,38 @@ figure {
 	margin-bottom: 9px;
 }
 
+.fotter-h3 {
+	color: var(--main-white);
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 0.6875;
+	letter-spacing: 0.03em;
+	margin-bottom: 20px;
+}
+
+.join-us {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 70px;
+}
+.list-icon-footer {
+	display: flex;
+	list-style: none;
+}
+.ellipse-footer {
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-position {
+	margin: 12px;
+}
+.icon-sopace{
+	margin-right: 10px;
+}
 /* portfolio */
 
 .ul-btn {
