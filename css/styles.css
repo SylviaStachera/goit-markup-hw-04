@@ -358,10 +358,9 @@ figure {
 .nav-color {
 	color: var(--main-black);
 }
-.flex-icon{
+.flex-icon {
 	display: flex;
 	align-items: center;
-	
 }
 
 .header-mail-tel {
@@ -432,11 +431,8 @@ figure {
 /* style main */
 
 .section {
-	/* display: flex;
-	justify-content: space-between; */
 	padding-top: 94px;
 	padding-bottom: 94px;
-	/* list-style: none; */
 	margin-right: 30px;
 }
 .section-flex {
@@ -452,6 +448,19 @@ figure {
 
 .extra-paddig-top {
 	padding-top: 94px;
+}
+
+.section-space {
+	margin-right: 30px;
+}
+.bg-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+	height: 120px;
+	width: 270px;
+	background-color: var(--darker-white);
 }
 .header-second {
 	font-weight: bold;
