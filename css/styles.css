@@ -358,8 +358,14 @@ figure {
 .nav-color {
 	color: var(--main-black);
 }
+.flex-icon{
+	display: flex;
+	align-items: center;
+	
+}
 
 .header-mail-tel {
+	margin-left: 10px;
 	color: var(--main-grey);
 	font-size: 14px;
 	line-height: 1.7143;
