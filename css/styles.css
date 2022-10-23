@@ -362,6 +362,10 @@ figure {
 	display: flex;
 	align-items: center;
 }
+.flex-icon:hover{
+	--color1: var(--active-color);
+	cursor: pointer;
+}
 
 .header-mail-tel {
 	margin-left: 10px;
@@ -382,6 +386,7 @@ figure {
 	color: var(--active-color);
 	cursor: pointer;
 }
+
 /* nagłówek */
 .header-title {
 	display: flex;
@@ -453,6 +458,7 @@ figure {
 .section-space {
 	margin-right: 30px;
 }
+
 .bg-icon {
 	display: flex;
 	justify-content: center;
