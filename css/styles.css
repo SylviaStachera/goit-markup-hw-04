@@ -394,7 +394,7 @@ figure {
 	justify-content: center;
 	align-items: center;
 	height: 600px;
-	background-color: rgba(47, 48, 58, 0.4);
+	/* background-color: rgba(47, 48, 58, 0.4); */
 	background-image: url(../images/bg-title_v1.jpg);
 	background-size: 1600px 600px;
 	background-position: center;
@@ -519,7 +519,7 @@ figure {
 	letter-spacing: 0.03em;
 }
 .second-description {
-	padding-bottom: 30px;
+	padding-bottom: 16px;
 	font-size: 16px;
 	line-height: 1.1875;
 	text-align: center;
@@ -534,6 +534,7 @@ figure {
 .client-icons:hover{
 	border: 1px solid var(--active-color);
 	--color2: var(--active-color);
+	cursor: pointer;
 	
 }
 
